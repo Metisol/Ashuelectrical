@@ -1,0 +1,203 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e10600;
+  background: #ffffff;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #ffffff;
+  color: #e10600;
+  transition: background-color 500ms ease, color 500ms ease;
+}
+
+.site-shell {
+  position: relative;
+  isolation: isolate;
+  color: #e10600;
+}
+
+.site-shell [class*='text-[#6b0000]'],
+.site-shell [class*='text-[#7b0000]'],
+.site-shell [class*='text-[#8a1c1c]'],
+.site-shell [class*='text-[#7a1818]'],
+.site-shell [class*='text-[#b30000]'],
+.site-shell [class*='text-[#4c4c4c]'],
+.site-shell [class*='text-[#8e8e8e]'] {
+  color: #e10600 !important;
+}
+
+.site-shell [class*='bg-[#650000]'],
+.site-shell [class*='bg-[#b30000]'] {
+  background-color: #e10600 !important;
+}
+
+.site-shell [class*='from-[#b30000]'] {
+  --tw-gradient-from: #e10600 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(225 6 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.site-shell [class*='hover:bg-[#b30000]']:hover {
+  background-color: #e10600 !important;
+}
+
+.site-shell [class*='border-[#8a1717]'] {
+  border-color: #e10600 !important;
+}
+
+.site-shell [class*='hover:border-[#a31d1d]']:hover {
+  border-color: #e10600 !important;
+}
+
+.site-background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.site-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(1);
+  opacity: 0.72;
+  transform: scale(1.02);
+  animation: electrical-backdrop-drift 48s ease-in-out infinite alternate;
+  transition: filter 700ms ease, opacity 700ms ease;
+}
+
+.site-background__wash {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.58));
+  transition: background 700ms ease;
+}
+
+.site-content,
+.site-shell > footer {
+  position: relative;
+  z-index: 1;
+}
+
+.site-shell .bg-white {
+  background-color: rgba(255, 255, 255, 0.76) !important;
+  backdrop-filter: blur(12px);
+  transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+}
+
+.site-shell .bg-white\/90 {
+  background-color: rgba(255, 255, 255, 0.86) !important;
+  backdrop-filter: blur(14px);
+  transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+}
+
+@keyframes electrical-backdrop-drift {
+  from { transform: scale(1.02) translate3d(0, 0, 0); }
+  to { transform: scale(1.08) translate3d(-1%, 0.5%, 0); }
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+html[data-theme='dark'] body {
+  background: #050505;
+  color: #ffffff;
+}
+
+html[data-theme='dark'] .site-background img {
+  filter: grayscale(1) brightness(0.2);
+  opacity: 0.36;
+}
+
+html[data-theme='dark'] .site-background__wash {
+  background: linear-gradient(rgba(5, 5, 5, 0.86), rgba(5, 5, 5, 0.94));
+}
+
+html[data-theme='dark'] .site-shell .bg-white,
+html[data-theme='dark'] .site-shell .bg-white\/90,
+html[data-theme='dark'] .site-shell [class*='bg-white/'] {
+  background-color: rgba(17, 17, 17, 0.96) !important;
+}
+
+html[data-theme='dark'] .site-shell [class*='bg-[#f'] {
+  background-color: rgba(24, 24, 24, 0.96) !important;
+}
+
+html[data-theme='dark'] .site-shell [class*='text-[#'] {
+  color: #ffffff !important;
+}
+
+html[data-theme='dark'] .site-shell [class*='border-[#'] {
+  border-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+html[data-theme='dark'] .site-shell footer {
+  background-color: rgba(10, 10, 10, 0.98) !important;
+}
+
+@keyframes red-button-glow {
+  0%, 100% {
+    box-shadow: 0 8px 22px rgba(225, 6, 0, 0.38), 0 0 0 1px rgba(225, 6, 0, 0.12);
+  }
+  50% {
+    box-shadow: 0 12px 34px rgba(225, 6, 0, 0.65), 0 0 22px rgba(225, 6, 0, 0.3);
+  }
+}
+
+.site-shell a[class*='bg-[#e10600]'],
+.site-shell button[class*='bg-[#e10600]']:not(:disabled) {
+  animation: red-button-glow 2.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(225, 6, 0, 0.15);
+}
