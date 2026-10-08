@@ -12,7 +12,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <SEO title="Contact | ASHU Electrical Solution" description="Contact ASHU Electrical Solution in Addis Ababa, Ethiopia for construction, electrical, security and technical service inquiries." canonical="https://ashuelectricalsolution.com/contact" />
+      <SEO title="Contact ASHU Electrical Solution | Addis Ababa, Ethiopia" description="Request a consultation with ASHU Electrical Solution in Addis Ababa for electrical contracting, office renovation, fit-out, CCTV, fire alarm, power distribution, and technical services." canonical="https://ashuelectricalsolution.com/contact" />
 
       <main className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
@@ -20,7 +20,7 @@ export default function ContactPage() {
             <SectionHeader eyebrow="Contact" title="Let’s Discuss Your Project" description="Speak with ASHU about your construction, renovation, electrical or technical requirements." />
             <div className="mt-8 space-y-5 text-sm text-[#6b0000]">
               <div className="flex items-center gap-3"><span className="font-semibold text-[#6b0000]">ASHU ELECTRICAL SOLUTION</span></div>
-              <div className="flex items-center gap-3"><span className="font-medium">Addis Ababa, Ethiopia</span></div>
+              <div className="flex items-center gap-3"><span className="font-medium">Electrical contractor and technical services provider in Addis Ababa, Ethiopia</span></div>
               <div className="flex items-center gap-3"><Phone className="h-4 w-4 text-[#b30000]" /> +251 913 312 828</div>
               <div className="flex items-center gap-3"><Phone className="h-4 w-4 text-[#b30000]" /> +251 921 809 883</div>
               <div className="flex items-center gap-3"><Mail className="h-4 w-4 text-[#b30000]" /> ashutame1216@gmail.com</div>

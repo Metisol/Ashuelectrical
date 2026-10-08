@@ -6,7 +6,7 @@ import { CheckCircle2 } from 'lucide-react'
 export default function AboutPage() {
   return (
     <>
-      <SEO title="About ASHU Electrical Solution | Integrated Construction & Technical Services" description="ASHU Electrical Solution is an integrated construction, renovation, building fit-out, electrical and technical services company based in Addis Ababa, Ethiopia." canonical="https://ashuelectricalsolution.com/about" />
+      <SEO title="About ASHU Electrical Solution | Electrical & Technical Services in Addis Ababa" description="Learn about ASHU Electrical Solution, an electrical and technical services company in Addis Ababa, Ethiopia delivering construction, renovation, fit-out, electrical installation, security systems, and project support." canonical="https://ashuelectricalsolution.com/about" />
 
       <main className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="About" title="ASHU Electrical Solution" description="An Ethiopian company providing construction, renovation, building fit-out, electrical installation, and integrated technical services." />
@@ -14,10 +14,10 @@ export default function AboutPage() {
         <div className="mt-10 grid items-start gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="rounded-[2rem] border border-[#f0d8d8] bg-white p-8 shadow-[0_18px_36px_rgba(177,0,0,0.04)]">
             <p className="text-base leading-8 text-[#7b0000]">
-              ASHU Electrical Solution undertakes office renovation, refurbishment, fit-out, electrical installation, low-current systems, network infrastructure, security systems, building works, and related technical services. The company works directly for clients and as a specialist subcontractor to construction companies.
+              ASHU Electrical Solution undertakes office renovation, refurbishment, fit-out, electrical installation, low-current systems, network infrastructure, security systems, building works, and related technical services for commercial, institutional, and industrial clients. The company works directly for clients and as a specialist subcontractor to construction companies in Addis Ababa, Ethiopia.
             </p>
             <p className="mt-5 text-base leading-8 text-[#7b0000]">
-              Its multidisciplinary approach coordinates civil, finishing, electrical, technical, and specialist trades from site preparation to inspection, defect rectification, documentation, and handover. The company is based in Addis Ababa, Ethiopia.
+              Its multidisciplinary approach coordinates civil, finishing, electrical, technical, and specialist trades from site preparation to inspection, defect rectification, documentation, and handover. This helps project teams deliver electrical contracting, renovation, and technical support work with a clearer path to completion and handover.
             </p>
             <div className="mt-8 grid items-start gap-4 md:grid-cols-2">
               <div className="rounded-[1.25rem] bg-[#fff7f7] p-5">

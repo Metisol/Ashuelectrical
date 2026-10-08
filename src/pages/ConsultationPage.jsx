@@ -11,7 +11,7 @@ export default function ConsultationPage() {
 
   return (
     <>
-      <SEO title="Technical Consultation | ASHU Electrical Solution" description="Request a technical consultation for office renovation, refurbishment, fit-out, electrical installation, network infrastructure, security, fire alarm, HVAC, and generator-related work." canonical="https://ashuelectricalsolution.com/consultation" />
+      <SEO title="Book a Consultation | ASHU Electrical Solution Addis Ababa" description="Request a technical consultation with ASHU Electrical Solution in Addis Ababa for office renovation, fit-out, electrical installation, low-current, security, and generator-related work." canonical="https://ashuelectricalsolution.com/consultation" />
 
       <main className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Consultation" title="Technical Consultation" description="Not sure what your project needs? Talk to ASHU's technical team." align="center" />

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Menu, Moon, Sun, X } from 'lucide-react'
+import logo from '../assets/ashu-logo-transparent.png'
 
 const navItems = [
   { label: 'Home', to: '/' },
@@ -19,13 +20,11 @@ export default function Navbar({ theme, onToggleTheme }) {
     <header className="sticky top-0 z-50 border-b border-[#f0d9d9] bg-white/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-3" aria-label="ASHU Electrical Solution home">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#e10600] text-sm font-black text-white shadow-lg shadow-red-200">
-            AS
-          </div>
-          <div>
-            <div className="text-xs font-bold uppercase tracking-[0.22em] text-[#b30000]">ASHU</div>
-            <div className="text-[10px] uppercase tracking-[0.18em] text-[#e10600]">Electrical Solution</div>
-          </div>
+          <img
+            src={logo}
+            alt="ASHU Electrical Solution logo"
+            className="h-20 w-auto object-contain"
+          />
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex" aria-label="Main navigation">

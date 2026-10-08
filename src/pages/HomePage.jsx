@@ -54,19 +54,25 @@ export default function HomePage() {
 
   return (
     <>
-      <SEO title="ASHU Electrical Solution | Office Renovation, Fit-Out & Electrical Services" description="ASHU Electrical Solution delivers office renovation, refurbishment, fit-out, electrical installation and integrated technical services in Ethiopia." canonical="https://ashuelectricalsolution.com/" />
+      <SEO title="ASHU Electrical Solution | Electrical Contractor in Addis Ababa, Ethiopia" description="ASHU Electrical Solution is an electrical contractor in Addis Ababa, Ethiopia delivering office renovation, fit-out, electrical installation, power systems, and technical services." canonical="https://ashuelectricalsolution.com/" />
 
       <section className="relative isolate overflow-hidden border-b border-[#f0d9d9] bg-transparent">
         <div className="relative z-10 mx-auto max-w-7xl px-4 pb-16 pt-10 sm:px-6 lg:px-8 lg:pb-20 lg:pt-16">
           <div className="grid items-center gap-10 lg:grid-cols-[1.05fr_1fr]">
           <div>
             <motion.p {...textReveal} className="mb-4 text-xs font-semibold uppercase tracking-[0.28em] text-[#b30000]">ASHU ELECTRICAL SOLUTION</motion.p>
-            <motion.h1 {...textReveal} className="max-w-[12ch] text-5xl font-black leading-[0.95] tracking-[-0.08em] text-[#6b0000] sm:text-6xl lg:text-7xl">
-              Office Renovation &amp; Technical Services
+            <motion.h1 {...textReveal} className="max-w-[13ch] text-5xl font-black leading-[0.95] tracking-[-0.08em] text-[#6b0000] sm:text-6xl lg:text-7xl">
+              Electrical Contractor in Addis Ababa, Ethiopia
             </motion.h1>
             <motion.p {...textReveal} className="mt-6 max-w-xl text-lg leading-8 text-[#7b0000]">
-              Renovation, refurbishment, fit-out, electrical and low-current works coordinated from site preparation through testing and handover.
+              ASHU Electrical Solution is a trusted electrical contractor in Addis Ababa, Ethiopia, delivering office renovation, fit-out, electrical installation, power distribution, CCTV, fire alarm, and technical services for commercial, institutional, and industrial projects.
             </motion.p>
+            <motion.div {...textReveal} className="mt-6 flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-[#b30000]">
+              <span className="rounded-full border border-[#f0d9d9] bg-white px-3 py-2">Electrical contractor in Addis Ababa</span>
+              <span className="rounded-full border border-[#f0d9d9] bg-white px-3 py-2">Office renovation</span>
+              <span className="rounded-full border border-[#f0d9d9] bg-white px-3 py-2">Electrical installation</span>
+              <span className="rounded-full border border-[#f0d9d9] bg-white px-3 py-2">CCTV & Security</span>
+            </motion.div>
             <motion.div {...textReveal} className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link to="/consultation" className="inline-flex items-center justify-center rounded-full bg-[#e10600] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_16px_30px_rgba(225,6,0,0.25)] transition hover:bg-[#b30000]">
                 Request a Project Consultation
@@ -101,9 +107,9 @@ export default function HomePage() {
             <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#fbe7e7] text-[#b30000]">
               <Building2 className="h-7 w-7" />
             </div>
-            <motion.h2 {...textReveal} className="text-3xl font-black tracking-[-0.06em] text-[#6b0000]">Professional execution from planning to handover.</motion.h2>
+            <motion.h2 {...textReveal} className="text-3xl font-black tracking-[-0.06em] text-[#6b0000]">Professional electrical and fit-out services for Addis Ababa projects.</motion.h2>
             <motion.p {...textReveal} className="mt-4 text-base leading-7 text-[#8a1c1c]">
-              ASHU Electrical Solution provides integrated construction, renovation, electrical and technical services for commercial, institutional and fit-out projects across Ethiopia.
+              ASHU Electrical Solution supports businesses, offices, and institutions with electrical contractor services in Addis Ababa, office renovation, building fit-out, electrical installation, power systems, and technical coordination from planning through handover.
             </motion.p>
             <motion.div {...textReveal} className="mt-6 space-y-4 text-sm text-[#6b0000]">
               <div className="flex items-center gap-3"><ClipboardCheck className="h-5 w-5 text-[#b30000]" /> Structured project coordination and execution</div>
@@ -115,13 +121,13 @@ export default function HomePage() {
           <div className="grid gap-8 md:grid-cols-2">
             <motion.div {...textReveal} className="rounded-[1.5rem] border border-[#efdad9] bg-white p-6">
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#b30000]">Core Capabilities</p>
-              <h3 className="mt-4 text-2xl font-bold text-[#6b0000]">Construction & technical coordination</h3>
-              <p className="mt-3 text-sm leading-7 text-[#8a1c1c]">Execution support for building works, fit-out, electrical installation and technical system integration.</p>
+              <h3 className="mt-4 text-2xl font-bold text-[#6b0000]">Office renovation and electrical installation in Addis Ababa</h3>
+              <p className="mt-3 text-sm leading-7 text-[#8a1c1c]">Execution support for building works, fit-out, electrical installation, low-current systems, and technical integration for commercial and institutional projects.</p>
             </motion.div>
             <motion.div {...textReveal} className="rounded-[1.5rem] border border-[#efdad9] bg-white p-6">
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#b30000]">Project Focus</p>
-              <h3 className="mt-4 text-2xl font-bold text-[#6b0000]">Commercial & institutional delivery</h3>
-              <p className="mt-3 text-sm leading-7 text-[#8a1c1c]">Practical, coordinated execution for project environments that require quality, control and handover discipline.</p>
+              <h3 className="mt-4 text-2xl font-bold text-[#6b0000]">Commercial & institutional electrical contracting</h3>
+              <p className="mt-3 text-sm leading-7 text-[#8a1c1c]">Practical, coordinated execution for environments that need power systems, controls, fire protection, security systems, and disciplined handover.</p>
             </motion.div>
             <motion.div {...textReveal} className="rounded-[1.5rem] border border-[#efdad9] bg-white p-6 md:col-span-2">
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#b30000]">Leadership</p>
